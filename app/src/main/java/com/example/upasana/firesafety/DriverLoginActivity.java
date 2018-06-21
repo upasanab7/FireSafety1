@@ -38,15 +38,15 @@ public class DriverLoginActivity extends AppCompatActivity {
                     Intent intent = new Intent(DriverLoginActivity.this, MapsActivity.class);
                     startActivity(intent);
                     finish();
-                    return;
+
                 }
             }
         };
-        memail= findViewById(R.id.email);
-        mname= findViewById(R.id.name);
+        memail= (EditText) findViewById(R.id.email);
+        mname= (EditText) findViewById(R.id.name);
 
 
-        mregister= findViewById(R.id.register);
+        mregister= (Button) findViewById(R.id.register);
 
         mregister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +57,7 @@ public class DriverLoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(!task.isSuccessful()){
-                            Toast.makeText(DriverLoginActivity.this, "sign up error", Toast.LENGTH_SHORT).show();;
+                            Toast.makeText(DriverLoginActivity.this, "sign up error", Toast.LENGTH_SHORT).show();
                         }else{
                             String user_id = mauth.getCurrentUser().getUid();
                             DatabaseReference current_user_db  = FirebaseDatabase.getInstance().getReference().child("Users").child("users").child(user_id);
