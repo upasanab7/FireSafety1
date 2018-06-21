@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "68011276083",
+    "firebase_url": "https://fireuber1.firebaseio.com",
+    "project_id": "fireuber1",
+    "storage_bucket": "fireuber1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68011276083:android:2ba31442c461050f",
+        "android_client_info": {
+          "package_name": "com.example.upasana.firesafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68011276083-l5c2jtv9qrp8e6tl6ds648arn5okoi8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.upasana.firesafety",
+            "certificate_hash": "ed563f2b52c4b115c9c02ebe287fae11df416fd2"
+          }
+        },
+        {
+          "client_id": "68011276083-ccjdo45onjghhub5jp75g27cph3kjom5.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "68011276083-ccjdo45onjghhub5jp75g27cph3kjom5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUqZKILuFUCexnqBxrfV3xZQgvtxpPK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68011276083-ccjdo45onjghhub5jp75g27cph3kjom5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
